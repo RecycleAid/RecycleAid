@@ -2,9 +2,12 @@ html {
   background: whitesmoke;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .start{
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   background-color: black;
   color: whitesmoke;
@@ -14,13 +17,9 @@ html {
 }
 
 .start:hover {
-    background-color: inherit;
-    color: black;
-    text-decoration: underline;
-}
-
-a:visited {
-  color: whitesmoke;
+  background-color: inherit;
+  color: black;
+  text-decoration: underline;
 }
 
 .container {
@@ -29,4 +28,9 @@ a:visited {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20em;
+}
+
+a {
+  color: #31c67f;
+  text-decoration: none;
 }

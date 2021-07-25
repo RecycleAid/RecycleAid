@@ -126,6 +126,7 @@ p {
     text-decoration: underline;
 }
 
-a:visited {
-  color: blanchedalmond;
+a {
+  color: #31c67f;
+  text-decoration: none;
 }
